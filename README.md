@@ -1,13 +1,16 @@
-# meen-auth-starter
+# meen-auth-starter-greatness
+
+# Installation instructions:
 
 * Create a `.env` in the root of the project.
 
-AAU I should be able to navigate to a registration page and create an account
+example `.env`:
 
-AAU I should be able to navigate to a login page and login to my account
+```
+PORT=3000
+DATABASE_URL=mongodb+srv://yourusername:yourpassword@cluster0.0x1xr.mongodb.net/meen-auth-starter?retryWrites=true&w=majority
+SECRET=makeupasecretphrasehere
+```
 
-AAU I should be able to navigate to a protected dashboard page when logged in
-
-AAU I should be redirected to the login page if I try to access the dashboard when logged out
-
-AAU I should be able to log out of my account
+* `npm i`
+* `nodemon`

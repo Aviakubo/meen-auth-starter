@@ -1,4 +1,4 @@
-# meen-auth-starter-greatness
+# meen-auth-starter
 
 # Installation instructions:
 
